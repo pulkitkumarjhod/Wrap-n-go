@@ -1,0 +1,103 @@
+body{
+    height: 100vh;
+    overflow-y: auto;
+    
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.heading {
+    color:rgb(21, 2, 39);
+    background-color: rgb(127, 255, 212);
+    padding: 2%;
+    border-radius: 40px;
+    font-size: 400%;
+    font-weight: 100;
+    font-family: Blippo, fantasy;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height: 500px;
+    /* width: 80%; */
+}
+
+
+.inner_cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 500px;
+    
+}
+
+.text{
+    margin-top: 10%;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+
+.box1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5%;
+}
+
+.card{
+    margin-right: 8px;
+    margin-bottom: 2%;
+    border: 1px solid black;
+    
+}
+
+
+
+.card img{
+    border-bottom: 1px solid black;
+    height: 30vh;
+}
+
+.lower-card{
+    display: flex;
+    justify-content: space-between;
+    border: black;
+}
+
+.lower-card input{
+    right: 0;
+    width: 20%;
+    text-align: center;
+} 
+
+.card-body button{
+    width: 100%;
+}
+
+
+/* .quantity{
+    display: flex;
+}
+.quantity input{
+    right: 0;
+    width: 20%;
+    text-align: center;
+} */
+
+
+/* <div id="mySidenav" className="sidenav">
+  <a  className="closebtn" onClick={closeNav}>&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div> */

@@ -1,0 +1,85 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-position: inherit; 
+    
+    overflow-x: hidden;
+    
+    
+}
+
+
+.message{
+    color: white;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 20px;
+    
+}
+
+.box{
+    background-image: url("../../public/cart.jpg"); 
+    width: 40%;
+	padding: 40px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: white;
+	text-align: center;
+	border-radius: 24px;
+}
+
+.box input{
+    border:0;
+	background: none;
+	/* display: block; */
+	margin: 20px auto;
+	text-align: center;
+	border:2px solid #3498db;
+	padding: 14px 10px;
+	width: 50%;
+	outline: none;
+    background-color: white;
+	color: black;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+
+
+
+.btn1{
+    border-radius: 20px;
+    color: whitesmoke;
+    background-color: rgba(70,73,202,255);
+    width: 50%;
+    height: 5vh;
+}
+
+.btn1:hover{
+    background-color: rgb(216, 159, 84);
+    color: white;
+}
+
+/* 
+.form label{
+    float: left;
+} */
+
+
+.loginBtn{
+    margin-right:"5vw";
+    height: 5vh;
+    width: 8vw;
+    background-color: rgba(206,205,228,255);
+    padding: 2px;
+    padding-left: 8px;
+    border-radius: 5px;
+}
